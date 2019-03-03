@@ -1,0 +1,111 @@
+body{
+	background-color: #d7f7f5;
+	 margin: 0 ;}
+div, footer, header, aside {text-align: center; position: relative; margin: .5em;}
+section, aside, footer, header { border: none ; padding: 1.25em; border-radius: 5px;}
+section{
+margin-bottom: .5em;}
+
+header{
+
+	text-align: center;
+    transition: 4s ease-in-out;
+}
+
+nav ul { text-align: center;}
+nav ul li{
+	display: inline-block;
+	text-align: center;
+	width: 20%
+}
+
+
+nav ul{
+	list-style-type: none;
+	padding: 0.5em;
+	margin: auto;
+}
+nav ul li{
+	padding: 0;
+	margin: 3px 0 0;
+	border: 1px solid black;
+	background-color: #75cac3;
+	padding:10px 1em;
+	text-align: center;
+}
+
+ .contact-title
+{
+	margin-top: 100px
+	color: #fff;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+
+.contact-title h1{
+	font-size: 1.5em;
+	line-height: 10px;
+}
+
+.contact-title h2
+{ font-size: 1.5em;
+}
+
+.form
+{
+	margin-top: 50px
+	transition: 4s ease-in-out;
+}
+
+.form-control
+{
+	width: 600px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 3px solid gray;
+	color: black;
+	font-size: 18px;
+	margin-bottom: 16px;
+
+}
+
+input
+{
+	height: 45px;
+}
+
+form .submit
+{
+
+background: #75cac3;
+border-color: transparent;
+color: white;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: 2px;
+height: 50px;
+margin-top: 20px;
+}
+
+form .submit:hover
+{
+	background-color: #2a6171;
+	cursor: pointer;
+}
+
+body{position: relative;}
+
+		.bg {
+  /* The image used */
+
+
+  /* Full height */
+  height: 100%;
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
